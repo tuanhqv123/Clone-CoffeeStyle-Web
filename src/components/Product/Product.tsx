@@ -259,6 +259,7 @@ export default function Product() {
 
         <div />
       </div>
+
       <div className='reveal mx-auto my-16 w-full gap-6 px-2 xl:w-[65%]'>
         <div className='flex flex-col items-center justify-center gap-4 lg:flex-row-reverse'>
           <div className='mb-5 h-full w-full basis-1/2 flex-col gap-4 xs:w-full md:mb-0 md:flex md:w-[50%] md:flex-row'>
@@ -286,13 +287,13 @@ bg-center bg-no-repeat xs:h-[200px] md:h-[130px]'
           </div>
         </div>
       </div>
+      <div className='h-[340px] bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7ac1c6ecdfd2_Section%20Image%202.jpg)] bg-cover bg-fixed bg-center bg-no-repeat' />
       <div id='blog' className='my-16 flex flex-row items-center justify-center'>
         <div className='h-[1px] w-8 bg-gray-200 ' />
         <div className='mx-1 px-2 py-4 text-center text-xs font-bold uppercase tracking-widest text-gray-500 lg:mx-4 lg:px-8'>
           BEHIND THE MUGS, LIFESTYLE STORIES
         </div>
         <div className='h-[1px] w-8 bg-gray-200' />
-
         <div />
       </div>
       <div className='reveal mx-auto w-[95%] lg:w-[65%]'>
