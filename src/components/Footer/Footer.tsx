@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div>
-      <div className='mt-16 flex flex-col items-center justify-center gap-4 bg-gray-950 py-12  opacity-90'>
+      <div id='about' className='mt-16 flex flex-col items-center justify-center gap-4 bg-gray-950 py-12  opacity-90'>
         <div className='flex flex-row items-center justify-center'>
           <div className='h-[1px] w-8 bg-gray-800 ' />
           <div className='mx-1 px-2 py-4 text-center text-xs font-bold uppercase tracking-widest text-gray-400'>

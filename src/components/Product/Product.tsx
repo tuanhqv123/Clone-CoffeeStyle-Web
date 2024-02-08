@@ -19,7 +19,7 @@ export default function Product() {
 
   return (
     <>
-      <div className='my-4 bg-[#060628] lg:mx-8'>
+      <div id='home' className='bg-[#060628] lg:mx-8'>
         <div className='h-[530px] bg-transparent bg-[url(./src/assets/image_1.jpeg)] bg-cover bg-bottom bg-no-repeat'>
           <div className='flex h-full w-full flex-col items-center justify-center gap-6 bg-gray-900/40 text-white'>
             <div className='text-xs font-semibold tracking-widest opacity-80'>BEST PLACE TO BUY DESIGN</div>
@@ -55,7 +55,7 @@ export default function Product() {
           </div>
         </div>
       </div>
-      <div className='reveal mx-auto mt-24 w-[85%] lg:w-[75%]'>
+      <div id='feature' className='reveal mx-auto mt-24 w-[85%] lg:w-[75%]'>
         <div className='grid grid-cols-1 gap-4 lg:grid-cols-2'>
           <div className='product-card'>
             <div className='h-[440px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a512bece011_liana-mikah-698524-unsplash.jpg)] bg-cover bg-center bg-no-repeat sm:h-[540px]'>
@@ -63,7 +63,7 @@ export default function Product() {
                 <div className='absolute right-3 top-3 w-[100px] bg-white px-4 py-2 text-center font-semibold capitalize text-[#a25f4b]'>
                   On sale.
                 </div>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   read the full story
                 </div>
               </div>
@@ -79,7 +79,7 @@ export default function Product() {
                 <div className='absolute right-3 top-3 w-[100px] bg-white px-4 py-2 text-center font-semibold capitalize text-[#a25f4b]'>
                   On sale.
                 </div>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -103,7 +103,7 @@ export default function Product() {
 
         <div />
       </div>
-      <div className='reveal mx-auto w-[90%] lg:w-[80%]'>
+      <div id='productlist' className='reveal mx-auto w-[90%] lg:w-[80%]'>
         <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3'>
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a6173ece01a_trent-erwin-570303-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
@@ -111,7 +111,7 @@ export default function Product() {
                 <div className='absolute right-3 top-3 w-[100px] bg-white px-4 py-2 text-center font-semibold capitalize text-[#a25f4b]'>
                   On sale.
                 </div>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function Product() {
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative flex h-full w-full items-center justify-center hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -143,7 +143,7 @@ export default function Product() {
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative flex h-full w-full items-center justify-center hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -159,7 +159,7 @@ export default function Product() {
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a81a6ecdfe7_levi-guzman-1077850-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative flex h-full w-full items-center justify-center hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -174,7 +174,7 @@ export default function Product() {
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a1db2ece009_natanja-grun-600152-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative flex h-full w-full items-center justify-center hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -189,7 +189,7 @@ export default function Product() {
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a8461ece016_nathan-dumlao-643391-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative flex h-full w-full items-center justify-center hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function Product() {
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7ae493ece012_rawpixel-645289-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative flex h-full w-full items-center justify-center hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -219,7 +219,7 @@ export default function Product() {
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a25acecdfd6_jakub-dziubak-394720-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative flex h-full w-full items-center justify-center hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -236,7 +236,7 @@ export default function Product() {
           <div className='product-card'>
             <div className='h-[380px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a512bece011_liana-mikah-698524-unsplash.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative flex h-full w-full items-center justify-center hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   explore mug
                 </div>
               </div>
@@ -250,7 +250,7 @@ export default function Product() {
           </div>
         </div>
       </div>
-      <div className='mt-16 flex flex-row items-center justify-center'>
+      <div id='promotion' className='mt-16 flex flex-row items-center justify-center'>
         <div className='h-[1px] w-8 bg-gray-200 ' />
         <div className='mx-1 px-2 py-4 text-center text-xs font-bold uppercase tracking-widest text-gray-500 lg:mx-4 lg:px-8'>
           BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE
@@ -261,13 +261,13 @@ export default function Product() {
       </div>
       <div className='reveal mx-auto my-16 w-full gap-6 px-2 xl:w-[65%]'>
         <div className='flex flex-col items-center justify-center gap-4 lg:flex-row-reverse'>
-          <div className='xs:w-full mb-5 h-full w-full basis-1/2 flex-col gap-4 md:mb-0 md:flex md:w-[50%] md:flex-row'>
-            <div className='xs:mb-4 mb-3 h-[280px] basis-2/3 bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a2f3decdfa9_Image.jpg)] bg-cover bg-center bg-no-repeat md:mb-0'></div>
-            <div className='xs:gap-4 flex basis-1/3 flex-row gap-3 md:flex-col'>
-              <div className='xs:h-[200px] h-[130px] basis-1/2 bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7aa6d0ecdfa7_Image%202.jpg)] bg-cover bg-center bg-no-repeat md:h-[130px]'></div>
+          <div className='mb-5 h-full w-full basis-1/2 flex-col gap-4 xs:w-full md:mb-0 md:flex md:w-[50%] md:flex-row'>
+            <div className='mb-3 h-[280px] basis-2/3 bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a2f3decdfa9_Image.jpg)] bg-cover bg-center bg-no-repeat xs:mb-4 md:mb-0'></div>
+            <div className='flex basis-1/3 flex-row gap-3 xs:gap-4 md:flex-col'>
+              <div className='h-[130px] basis-1/2 bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7aa6d0ecdfa7_Image%202.jpg)] bg-cover bg-center bg-no-repeat xs:h-[200px] md:h-[130px]'></div>
               <div
-                className='xs:h-[200px] h-[130px] basis-1/2 bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a528fecdfa6_Image.jpg)]
-bg-cover bg-center bg-no-repeat md:h-[130px]'
+                className='h-[130px] basis-1/2 bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a528fecdfa6_Image.jpg)] bg-cover
+bg-center bg-no-repeat xs:h-[200px] md:h-[130px]'
               ></div>
             </div>
           </div>
@@ -286,7 +286,7 @@ bg-cover bg-center bg-no-repeat md:h-[130px]'
           </div>
         </div>
       </div>
-      <div className='my-16 flex flex-row items-center justify-center'>
+      <div id='blog' className='my-16 flex flex-row items-center justify-center'>
         <div className='h-[1px] w-8 bg-gray-200 ' />
         <div className='mx-1 px-2 py-4 text-center text-xs font-bold uppercase tracking-widest text-gray-500 lg:mx-4 lg:px-8'>
           BEHIND THE MUGS, LIFESTYLE STORIES
@@ -300,7 +300,7 @@ bg-cover bg-center bg-no-repeat md:h-[130px]'
           <div className='product-card px-4 md:col-span-2 lg:col-span-1  lg:px-0'>
             <div className='h-[300px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative h-full w-full hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   read the full story
                 </div>
               </div>
@@ -316,7 +316,7 @@ bg-cover bg-center bg-no-repeat md:h-[130px]'
           <div className='product-card px-4 md:col-span-2 lg:col-span-1 lg:px-0'>
             <div className='h-[300px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a481bece02f_Blog%20Pic%20Head%201.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative h-full w-full hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   read the full story
                 </div>
               </div>
@@ -332,7 +332,7 @@ bg-cover bg-center bg-no-repeat md:h-[130px]'
           <div className='product-card px-4 md:col-span-2 md:col-start-2 md:col-end-4 lg:col-span-1 lg:px-0'>
             <div className='h-[300px] bg-[url(https://assets-global.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg)] bg-cover bg-center bg-no-repeat'>
               <div className='group relative h-full w-full hover:bg-gray-900/10 hover:transition-all hover:duration-300 hover:ease-in-out'>
-                <div className='group-hover:animate-fadeIn absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2  cursor-pointer items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block'>
+                <div className='absolute bottom-4 left-[50%] hidden w-11/12 -translate-x-1/2 cursor-pointer  items-center bg-white px-8 py-4 text-center text-sm font-medium uppercase tracking-wider text-gray-900 hover:bg-opacity-95 group-hover:block group-hover:animate-fadeIn'>
                   read the full story
                 </div>
               </div>

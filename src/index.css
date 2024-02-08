@@ -23,12 +23,12 @@ body {
   }
 }
 
-.mobile-menu li {
+.mobile-menu {
   animation: slideDown 0.4s ease forwards;
 }
 .reveal {
   position: relative;
-  transform: translateY(16px);
+  transform: translateY(20px);
   opacity: 0.7;
   transition: 0.5s all ease-out;
 }
