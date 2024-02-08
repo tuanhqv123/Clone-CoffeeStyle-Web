@@ -26,7 +26,16 @@ export default function Header() {
     <header className='sticky top-0 z-50 bg-white pb-2 pt-4'>
       <div className='container relative'>
         <nav className='flex flex-row items-center justify-between tracking-wider lg:justify-normal'>
-          <div className='basis-2/6 pl-6 text-center text-2xl font-bold xs:pl-4 lg:pl-4'>CoffeeStyle.</div>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={1200}
+            to='home'
+            className='basis-2/6 cursor-pointer pl-6 text-center text-2xl font-bold xs:pl-4 lg:pl-4'
+          >
+            CoffeeStyle.
+          </Link>
           <ul
             className={`w-full basis-3/6 gap-2 bg-white text-sm font-medium uppercase text-gray-500 lg:flex lg:gap-8 ${isVisible && isMobile ? 'mobile-menu absolute top-10 flex flex-col text-center' : 'hidden'}`}
           >
