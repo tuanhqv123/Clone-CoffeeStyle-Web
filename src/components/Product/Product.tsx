@@ -287,7 +287,7 @@ bg-center bg-no-repeat xs:h-[200px] md:h-[130px]'
           </div>
         </div>
       </div>
-      <div className='h-[340px] bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7ac1c6ecdfd2_Section%20Image%202.jpg)] bg-cover bg-fixed bg-center bg-no-repeat' />
+      <div className='h-[300px] bg-[url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7ac1c6ecdfd2_Section%20Image%202.jpg)] bg-cover bg-fixed bg-center bg-no-repeat md:h-[340px]'></div>
       <div id='blog' className='my-16 flex flex-row items-center justify-center'>
         <div className='h-[1px] w-8 bg-gray-200 ' />
         <div className='mx-1 px-2 py-4 text-center text-xs font-bold uppercase tracking-widest text-gray-500 lg:mx-4 lg:px-8'>
