@@ -20,17 +20,14 @@ export default function Product() {
   return (
     <>
       <div id='home' className='bg-[#060628] lg:mx-8'>
-        <div className='h-[530px] bg-transparent bg-[url(./src/assets/image_1.jpeg)] bg-cover bg-bottom bg-no-repeat'>
-          <div className='flex h-full w-full flex-col items-center justify-center gap-6 bg-gray-900/40 text-white'>
-            <div className='text-xs font-semibold tracking-widest opacity-80'>BEST PLACE TO BUY DESIGN</div>
-            <div className='text-5xl'>Coffee Mugs</div>
-            <div className='text-center text-lg'>
-              The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
-            </div>
-            <button className='bg-white px-10 py-4 text-sm font-medium uppercase text-gray-900 hover:bg-opacity-95 hover:shadow-sm'>
-              Explore our products
-            </button>
+        <img src='./src/assets/image_1.jpeg' alt='background' className='h-[530px] object-cover' />
+        <div className='absolute top-0 flex h-full w-full flex-col items-center justify-center gap-6 bg-gray-900/40 text-white'>
+          <div className='text-xs font-semibold tracking-widest opacity-80'>BEST PLACE TO BUY DESIGN</div>
+          <div className='text-5xl'>Coffee Mugs</div>
+          <div className='text-center text-lg'>
+            The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
           </div>
+          <div className='text-center text-lg'>Explore our products</div>
         </div>
       </div>
       <div className='container'>
