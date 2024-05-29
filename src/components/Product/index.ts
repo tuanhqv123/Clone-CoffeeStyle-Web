@@ -1,3 +1,3 @@
-import Product from './Product'
+import Product from './Product.1'
 
 export default Product
